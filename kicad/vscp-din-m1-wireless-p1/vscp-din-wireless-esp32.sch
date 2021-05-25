@@ -178,8 +178,6 @@ F 3 "" H 5950 4850 50  0001 C CNN
 	1    5950 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 5550 5950 5050
 $Comp
 L power:GND #PWR0118
 U 1 1 60B51934
@@ -276,7 +274,6 @@ Wire Wire Line
 	5450 5250 5450 5050
 Wire Wire Line
 	5450 5050 5950 5050
-Connection ~ 5950 5050
 Wire Wire Line
 	5950 5050 5950 4850
 $Comp
@@ -588,4 +585,9 @@ Text Label 8300 1650 0    50   ~ 0
 leda
 Text Label 8300 1850 0    50   ~ 0
 ledb
+Wire Wire Line
+	6150 5550 6150 5050
+Wire Wire Line
+	6150 5050 5950 5050
+Connection ~ 5950 5050
 $EndSCHEMATC
